@@ -114,7 +114,8 @@ p  { max-width: 65ch; line-height: 1.7; color: var(--color-neutral-700); }
   z-index: 100;
 }
 .nav__inner  { display: flex; align-items: center; justify-content: space-between; gap: var(--space-lg); }
-.nav__logo   { font-family: var(--font-display); font-weight: 400; font-size: 1.5rem; text-decoration: none; color: inherit; }
+.nav__logo   { display: flex; align-items: center; gap: var(--space-sm); font-family: var(--font-display); font-weight: 400; font-size: 1.5rem; text-decoration: none; color: inherit; }
+.nav__logo img { height: 44px; width: auto; display: block; }
 .nav__links  { display: flex; gap: var(--space-lg); list-style: none; align-items: center; }
 .nav__links a { text-decoration: none; color: var(--color-neutral-700); font-size: var(--text-small); font-weight: 600; }
 .nav__links a.active { color: var(--color-primary-dk); }
