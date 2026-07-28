@@ -274,3 +274,5 @@ p  { max-width: 65ch; line-height: 1.7; color: var(--color-neutral-700); }
 .footer h4 { margin-bottom: var(--space-sm); }
 .footer p, .footer a { color: var(--color-neutral-700); text-decoration:none; }
 .footer__bottom { text-align:center; color: var(--color-neutral-500); padding-top: var(--space-lg); border-top: 1px solid var(--color-neutral-300); font-size: var(--text-caption); }
+.footer__bottom a { color: inherit; }
+.footer__bottom a:hover { text-decoration: underline; color: var(--color-primary-dk); }
