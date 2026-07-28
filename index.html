@@ -18,14 +18,19 @@
 <nav class="nav">
   <div class="container nav__inner">
     <a href="index.html" class="nav__logo"><img src="assets/img/logo-chef.png" alt="Pizzeria Bella Marina Logo" width="325" height="400">Bella Marina</a>
-    <ul class="nav__links">
+    <ul class="nav__links" id="navLinks">
       <li><a href="index.html" class="active">Startseite</a></li>
       <li><a href="ueber-uns.html">Über uns</a></li>
       <li><a href="speisekarte.html">Speisekarte</a></li>
       <li><a href="galerie.html">Galerie</a></li>
       <li><a href="standort.html">Standort &amp; Kontakt</a></li>
     </ul>
-    <a href="tel:+496227819017" class="nav__phone">📞 06227 81 90 17</a>
+    <div class="nav__right">
+      <a href="tel:+496227819017" class="nav__phone">📞 <span>06227 81 90 17</span></a>
+      <button class="nav__toggle" id="navToggle" aria-label="Menü öffnen" aria-expanded="false" aria-controls="navLinks">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
   </div>
 </nav>
 
